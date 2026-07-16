@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member Sign In</title>
+     <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-yellow-50">
+    <section class="">
+        <div class="flex min-h-screen">
+        <div class="hidden lg:block lg:w-1/2">
+            <img src="asset/memberimage.jpg" class="w-full h-screen object-cover" alt="">
+
+        </div>
+
+
+        <!--FORM  -->
+        <div class="w-full lg:w-1/2 flex items-center justify-center px-4 md:px-12 py-10">
+            
+  
+<form class="max-w-md mx-auto space-y-4 ">
+    <div class="">
+        <h1 class="text-2xl font-bold text-red-600 font-serif">  
+                Dwelio  
+            </h1>  
+             <h2 class="text-xl font-medium text-gray-700">Don't have an account? <a href="#" class="text-red-500">Sign Up</a></h2>
+        </div>
+
+    <div>
+        <label class="block mb-2 text-sm font-medium">
+            Email
+        </label>
+
+        <input
+            type="email"
+            placeholder="you@example.com"
+            class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-red-500"
+        >
+    </div>
+
+    <div>
+        <label class="block mb-2 text-sm font-medium">Password</label>
+        <input type="password" 
+        placeholder="Enter your Password" class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline focu:ring-2 focus:ring-red-500" id="">
+    </div>
+    <button
+        type="submit"
+        class="w-full bg-red-500 text-white py-3 rounded-lg transition-all duration-[400ms] ease-in-out hover:bg-black"
+    >
+        Sign In
+    </button>
+
+</form>
+        </div>
+        </div>
+    </section>
+</body>
+</html>
